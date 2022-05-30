@@ -1,0 +1,91 @@
+﻿<UserControl x:Class="SweetAsMusic.NVVM.View.Register"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SweetAsMusic.NVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="330"
+             Background="Transparent" BorderThickness="0">
+    <StackPanel>
+        <StackPanel>
+            <Image Source="/Images/Reg.png"
+                            Height="70"/>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal">
+            <Border CornerRadius="15"
+                                    Height="35"
+                                    Width="235"
+                                    Background="White"
+                                    BorderThickness="0"
+                                    Opacity="0.5"
+                                    HorizontalAlignment="Center"
+                                    Margin="50,0,0,0"
+                                    >
+                <TextBox FontFamily="Halvetica"
+                         FontWeight="Light"
+                         Text="User Name"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="220"
+                         Height="25"
+                         Opacity ="0.5"
+                         TextAlignment="Left"/>
+            </Border>
+        </StackPanel>
+        
+        <StackPanel>
+            <Border CornerRadius="15"
+                                    Height="35"
+                                    Width="235"
+                                    Background="White"
+                                    BorderThickness="0"
+                                    Opacity="0.5"
+                                    HorizontalAlignment="Center"
+                                    Margin="5,10,0,0">
+                
+                <TextBox FontFamily="Halvetica"
+                         FontWeight="Light"
+                         Text="Email"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="220"
+                         Height="25"
+                         Opacity ="0.5"
+                          TextAlignment="Left"/>
+            </Border>
+        </StackPanel>
+        <StackPanel>
+            <Border CornerRadius="15"
+                                    Height="35"
+                                    Width="235"
+                                    Background="White"
+                                    BorderThickness="0"
+                                    Opacity="0.5"
+                                    HorizontalAlignment="Center"
+                                    Margin="5,10,0,0">
+
+                <TextBox FontFamily="Halvetica"
+                         FontWeight="Light"
+                         Text="Password"
+                         FontSize="20"
+                         HorizontalAlignment="Center"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="220"
+                         Height="25"
+                         Opacity ="0.5"
+                          TextAlignment="Left"/>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+
+</UserControl>

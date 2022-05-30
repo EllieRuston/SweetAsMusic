@@ -1,0 +1,35 @@
+﻿<Application x:Class="SweetAsMusic.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SweetAsMusic"
+             xmlns:viewModel ="clr-namespace:SweetAsMusic.NVVM.ViewModel"
+             xmlns:view="clr-namespace:SweetAsMusic.NVVM.View"
+             StartupUri="SignIn.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxTheme.xaml"/>
+                <ResourceDictionary Source="LogButtonTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+            <view:HomeView/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
+            <view:DiscoveryView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:LoginViewModel}">
+            <view:LoginView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:RegisterViewModel}">
+            <view:RegisterView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
