@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\SweetAsMusic.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\SweetAsMusic.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\LogButtonTheme.baml
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\Theme\TextBoxTheme.baml
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\Login.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\NVVM\View\DiscoveryView.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\NVVM\View\HomeView.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\NVVM\View\LoginView.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\NVVM\View\RegisterView.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\SweetAsMusic_MarkupCompile.cache
+C:\Users\Administrator\source\repos\SweetAsMusic\obj\Debug\SweetAsMusic_MarkupCompile.lref
